@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/logo_nav.2.png" type="image/x-icon">
+</head>
+<body>
+    <main class="conteudo">
+            <header class="cabecalho">
+                <img src="./assets/logoAlura.png" alt="logo da alura">
+                <h1 class="titulo_cabecalho">Alura ONE Turma 6 - 2024
+                </h1>
+            </header>
+
+        <section class="mensagem">
+            <div class="input">
+                <textarea id= "input_Texto" placeholder="Digite seu texto..."></textarea>
+                <p>
+                    <img class="logo_Atenção" src="./assets/logoAtenção.png"      alt="logo de atenção">Apenas letras minúsculas e sem acento!
+                </p>
+            </div>
+            <div id= "output_Texto">
+                <img class="imagem_Espera" src="./assets/Spider_esperando.png" alt="logo do spider-man pendurado">
+                <h2>Mensagem!</h2>
+                <span>Digite um texto que deseja criptografar ou descriptografar</span>
+            </div>
+        </section>
+
+        <section class="button">
+            <div class="button_Container">
+                <button id="btn_Criptografar" onclick="criptografar()" class="button_Container_Criptografar">Criptografar</button>
+                <button id="btn_Descriptografar" onclick="descriptografar()" class="button_Container_Descriptografar">Descriptografar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/dylan-ara%C3%BAjo-372b4a16a/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://instagram.com/dyllan_a.inc"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://github.com/DylanONAraujo"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Dylan Araujo!</h3>
+        <p><img class="imagem_Rodape" src="./assets/Spider logo.png" alt="logo do spider-man pendurado"></p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
